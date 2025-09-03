@@ -32,7 +32,7 @@ score = r2_score(y_test, pred)
 # Website
 st.title("Gold Price Prediction Model")
 img = Image.open('gold_img.jpg')
-st.image(img, width=150, use_container_width =True)
+st.image(img, width=100, use_container_width =True)
 
 st.subheader('Using Random Forest Regressor')
 st.write(gold)
